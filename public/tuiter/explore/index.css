@@ -1,0 +1,105 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f8fa;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.header {
+	background-color: #1da1f2;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.header h1 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.tweet {
+	display: flex;
+	align-items: flex-start;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.avatar {
+	flex: 0 0 auto;
+	margin-right: 10px;
+}
+
+.avatar img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.content {
+	flex: 1 1 auto;
+}
+
+.content h2 {
+	margin: 0;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.content p {
+	margin: 0;
+	font-size: 14px;
+	color: #333;
+}
+
+.wd-navbar-div {
+	text-align: center;
+}
+
+.wd-explore-navbar {
+	list-style-type: none;
+	margin: 5px;
+	padding: 1px;
+	overflow: hidden;
+	background-color: #ffffff;
+	display: inline-block;
+	list-style-type: none;
+    width: 100%;
+}
+
+
+.wd-explore-navlink {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	float: left;
+    color: black
+}
+
+.wd-explore-navlink:hover {
+	background-color: #93daf8;
+}
+
+.wd-explore-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wd-tuit-list {
+}
+
+.wd-tuit {
+}
