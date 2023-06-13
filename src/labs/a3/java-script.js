@@ -11,11 +11,12 @@ function JavaScript() {
 		<div>
 			<h1>JavaScript</h1>
 			<VariablesAndConstants />
-            <VariableTypes/>
-            <BooleanVariables/>
-            <IfElse />
-            <TernaryOperator/>
-            <WorkingWithFunctions/>
+			<VariableTypes />
+			<BooleanVariables />
+			<IfElse />
+			<TernaryOperator />
+			<WorkingWithFunctions />
+			<WorkingWithArrays />
 		</div>
 	);
 }

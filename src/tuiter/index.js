@@ -1,3 +1,11 @@
+const store = configureStore({
+	reducer: {
+		who: whoReducer,
+		tuits: tuitsReducer,
+	},
+});
+
+
 function Tuiter() {
 	return (
 		<div>
